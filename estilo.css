@@ -5,11 +5,11 @@
 
 a {
     text-decoration: none;
-    color: red;
+    color: #ffadca;
 }
 
 a:hover {
-    color: darkred;
+    color: white;
 }
 
 .maior::first-letter {
@@ -17,7 +17,7 @@ a:hover {
 }
 
 #cabecalho {
-    background-color: #FAF0E6;
+    background-color: #401a74;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -31,16 +31,31 @@ a:hover {
 }
 
 .d {
-    color: red;
+    color: white;
     font-size: 2em;
 }
-.c {
-    color: blue;
+
+.d:hover {
+    color: #ffadca;
+    font-size: 2em;
+}
+.e {
+    color: white;
     font-size: 1.5em;
 }
 
-.a {
-    color: black;
+.e:hover {
+    color: #ffadca;
+    font-size: 1.5em;
+}
+
+.w {
+    color: white;
+    font-size: 2em;
+}
+
+.w:hover  {
+    color: #ffadca;
     font-size: 2em;
 }
 
@@ -48,12 +63,18 @@ a:hover {
     align-content: center;
 }
 
+.links:hover {
+    color: black;
+    
+}
+
 .foto {
     flex-grow: 1;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .ola {
     flex-grow: 2;
-    border: 1px solid black;
+    border: 1px solid white;
 }
+
