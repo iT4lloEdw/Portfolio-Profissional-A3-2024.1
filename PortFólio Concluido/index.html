@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
   <link rel="stylesheet" href="style.css">
   <title>Portfólio</title>
 </head>
@@ -27,10 +28,11 @@
     </header>
 
     <main>
-      <section class="container-text">
+      <section class="container-text" data-aos="fade-up" data-aos-duration="1000" >
         <div class="text">
-          <h3>Olá, pessoal!</h3>
+          <h3>Olá!</h3>
           <h1>Me chamo <span>Itallo Edward</span></h1>
+          <h3>< Desenvolvedor <span>Jr /></span></h3>
           <p>Minhas Redes Sociaís:</p>
           <div class="redes-sociais">
             <a href="https://www.instagram.com/edw.codes/"><i class="fa-brands fa-instagram fa-2x"></i></a>
@@ -38,19 +40,17 @@
             <a href="https://www.behance.net/italloedward"><i class="fa-brands fa-behance fa-2x"></i></a>
             <a href="https://github.com/iT4lloEdw"><i class="fa-brands fa-github fa-2x"></i></a>
           </div>
-        
         </div>
       </section>
 
-      <section id="sobre" class="section">
+      <section id="sobre" class="section" data-aos="fade-up" >
         <div class="text">
           <h1><span>Sobre</span></h1>
-          <p>Sou Paraíbano, Tenho 19 anos e adoro tecnologia! <br> Atualmente estou graduando em Ciências da Computação, <br> com término previsto para 2026.</p>
-          
+          <p style="font-size:25px">Sou Paraíbano, Tenho 19 anos e adoro tecnologia! <br> Atualmente estou graduando em Ciências da Computação, <br> com término previsto para 2026.</p>
         </div>
       </section>
 
-      <section id="habilidades" class="section">
+      <section id="habilidades" class="section" data-aos="fade-up">
         <div class="text">
           <h1><span>Habilidades</span></h1>
           <p>Foco em Front-End</p>
@@ -62,36 +62,30 @@
         </div>
       </section>
 
-      
-      <section id="habilidades" class="section">
+      <section id="projetos" class="section" data-aos="fade-up">
         <div class="text">
           <h1><span>Projetos de Destaque</span></h1>
-          <p>  Viva FPB 2024</p>
+          <p>Viva FPB 2024</p>
           <div class="icones">
             <img class="viva" src="https://www.vivafpb.com.br/imagens/logo_viva.png" alt="Viva FPB">
           </div>
         </div>
       </section>
 
-
-    
-
-      <section id="portfolio" class="section">
+      <section id="portfolio" class="section" data-aos="fade-up">
         <div class="text">
           <h1><span>Portfólio</span></h1>
           <p>Behance & GitHub</p>
           <p>↓ ↓</p>
-          
-          <a href="https://www.behance.net/italloedward"><i style="color:white"class="fa-brands fa-behance"></i></a>
-          <a href="https://github.com/iT4lloEdw"><i style="color:white"class="fa-brands fa-github"></i></a>
+          <a href="https://www.behance.net/italloedward"><i style="color:white" class="fa-brands fa-behance"></i></a>
+          <a href="https://github.com/iT4lloEdw"><i style="color:white" class="fa-brands fa-github"></i></a>
         </div>
       </section>
 
-      <section id="contato" class="section">
+      <section id="contato" class="section" data-aos="fade-up">
         <div class="text">
           <h1><span>Contatos</span></h1>
-          
-          <i class="fa-solid fa-envelope" style="color: #ffffff;"></i> 
+          <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
           <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
           <p>itallosilva767@gmail.com</p>
           <p>(83) 9 9925-0675</p>
@@ -111,5 +105,17 @@
       </div>
     </footer>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+    offset: 100, 
+    duration: 2000, 
+    easing: 'ease-in-out', 
+    delay: 200, 
+    once: true 
+    });
+  </script>
+
 </body>
 </html>
