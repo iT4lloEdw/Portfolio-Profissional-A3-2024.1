@@ -11,7 +11,7 @@
 
 body {
     scroll-behavior: smooth;
-    min-height: 00vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -77,15 +77,13 @@ button:hover {
 }
 
 .container-text, .section {
-    padding: 150px 0px;
+    padding: 300px 0px;
     text-align: center;
-    
 }
 
 .container-text, .text {
     font-size: 20px;
 }
-
 
 .section {
     color: #fff;
@@ -93,11 +91,11 @@ button:hover {
 
 .text h3 {
     color: #fff;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .text h1 {
-    font-size: 40px;
+    font-size: 70px;
     color: #fff;
     margin-top: 10px;
 }
@@ -105,6 +103,7 @@ button:hover {
 .text span {
     color: #B197FC;
 }
+
 
 .text span:hover {
     color: #401a74;
@@ -139,10 +138,8 @@ button:hover {
 }
 
 .viva {
-    width: 10%;
+    width: 30%;
 }
-
-
 
 @media (max-width: 768px) {
     header {
@@ -194,7 +191,6 @@ button:hover {
         font-size: 0.875rem;
     }
 }
-
 
 footer {
     background: #222;
